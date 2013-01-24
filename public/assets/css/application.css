@@ -99,6 +99,104 @@ p a {
   text-decoration: underline;
 }
 
+.lightbox {
+  width: 380px;
+  height: 580px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  background: url(../images/lightbox.png) no-repeat center bottom;
+}
+
+.lightbox_offset {
+  padding: 190px 20px 40px;
+}
+
+.lightbox h1 {
+  color: #59504A;
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 1px #fff;
+  font-family: 'Cutive', sans-serif;
+}
+
+.lightbox p {
+  color: #998F84;
+  font-size: 12px;
+  padding: 5px 0;
+  text-shadow: 0 1px #fff;
+}
+
+.lightbox .divider {
+  height: 4px;
+  background: url(../images/divider.png) no-repeat center center;
+  padding: 10px 0;
+}
+
+.lightbox h2 {
+  font-weight: normal;
+  font-size: 15px;
+  color: #8A807B;
+  text-shadow: 0 1px #fff;
+  padding-bottom: 5px;
+}
+
+.lightbox .textbox {
+  width: 205px;
+  padding-left: 50px;
+  height: 45px;
+  margin: 0 auto;
+  text-align: left;
+  background: url(../images/textbox-sprite.png) no-repeat;
+}
+
+.lightbox .textbox.email {
+  background-position: 0 -50px;
+}
+
+.lightbox .textbox input {
+  border: none;
+  background: none;
+  padding: 10px 10px 10px 0;
+  height: 25px;
+  outline: none;
+  width: 190px;
+  color: #999999;
+}
+
+.btn_claim {
+  width: 254px;
+  height: 58px;
+  background: url(../images/btn-claim.png) no-repeat;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+.lightbox .terms {
+  color: #998F84;
+  font-size: 11px;
+}
+
+.terms a {
+  color: #736B63;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.progress_bar {
+  width: 831px;
+  height: 53px;
+  background: url(../images/step-2.png) no-repeat;
+  position: absolute;
+  z-index: 2;
+  top: 640px;
+  left: 50%;
+  margin-left: -415px;
+}
+
 /*
 ========================== code ends =============================
 */
