@@ -197,6 +197,43 @@ p a {
   margin-left: -415px;
 }
 
+.progress_bar.step_3 {
+  background: url(../images/step-3.png) no-repeat;
+}
+
+.sentbox {
+  width: 441px;
+  height: 384px;
+  background: url(../images/sentbox.png) no-repeat;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -230px;
+}
+
+.sentbox p {
+  width: 325px;
+  color: #FFE4B8;
+  text-shadow: 0 -1px rgba(0,0,0,0.45);
+  font-family: 'Cutive', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 110px;
+  right: 42px;
+  text-align: center;
+}
+
+.sentbox a {
+  text-decoration: none;
+  padding-left: 4px;
+  border-bottom: 1px dashed #FFE4B8;
+}
+
+.sentbox a:hover {
+  border: none;
+}
+
 /*
 ========================== code ends =============================
 */
