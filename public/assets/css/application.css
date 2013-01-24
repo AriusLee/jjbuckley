@@ -201,6 +201,10 @@ p a {
   background: url(../images/step-3.png) no-repeat;
 }
 
+.progress_bar.step_4 {
+  background: url(../images/step-4.png) no-repeat;
+}
+
 .sentbox {
   width: 441px;
   height: 384px;
@@ -232,6 +236,35 @@ p a {
 
 .sentbox a:hover {
   border: none;
+}
+
+.btn_send {
+  margin: 5px auto;
+  display: block;
+  border: none;
+  outline: none;
+  width: 246px;
+  height: 37px;
+  background: url(../images/btn-send.png) no-repeat;
+  background-position: 1px 0;
+}
+
+.divider_2 {
+  width: 250px;
+  height: 14px;
+  background: url(../images/divider-2.png) no-repeat center center;
+  padding: 5px 0;
+  margin: 0 auto;
+}
+
+.social_buttons a {
+  width: 123px;
+  height: 35px;
+  background: url(../images/btn-social.png) no-repeat;
+}
+
+.social_buttons a.twt {
+  background-position: 0 -40px;
 }
 
 /*
