@@ -121,6 +121,14 @@ p a {
   font-family: 'Cutive', sans-serif;
 }
 
+h1 a {
+  border-bottom: 1px dashed transparent;
+}
+
+h1 a:hover {
+  border-bottom: 1px dashed #59504A;
+}
+
 .lightbox p {
   color: #998F84;
   font-size: 12px;
