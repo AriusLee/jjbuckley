@@ -190,7 +190,7 @@ p a {
 .progress_bar {
   width: 831px;
   height: 53px;
-  background: url(../images/step-2.png) no-repeat;
+  background: url(../images/step-1.png) no-repeat center center;
   position: absolute;
   z-index: 2;
   top: 640px;
@@ -198,12 +198,12 @@ p a {
   margin-left: -415px;
 }
 
-.progress_bar.step_3 {
-  background: url(../images/step-3.png) no-repeat;
+.progress_bar.step_2 {
+  background: url(../images/step-2.png) no-repeat center center;
 }
 
-.progress_bar.step_4 {
-  background: url(../images/step-4.png) no-repeat;
+.progress_bar.step_3 {
+  background: url(../images/step-3.png) no-repeat center center;
 }
 
 .sentbox {
