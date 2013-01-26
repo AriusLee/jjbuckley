@@ -303,6 +303,15 @@ p a {
   opacity: 1;
 }
 
+.publisher_logo {
+  width: 80px;
+  height: 67px;
+  background: url(../images/logo.png) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
 /*
 ========================== code ends =============================
 */
