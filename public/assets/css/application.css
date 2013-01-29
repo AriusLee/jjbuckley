@@ -77,10 +77,6 @@ body, html {
   height: 100%;
 }
 
-body {
-  background: url(../images/bg-body.jpg) no-repeat center top #000;
-}
-
 p, h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
@@ -312,12 +308,50 @@ h1 a:hover {
 }
 
 .publisher_logo {
-  width: 80px;
-  height: 67px;
   background: url(../images/logo.png) no-repeat;
   position: absolute;
   top: 10px;
   left: 15px;
+}
+
+/* Subject Changing */
+
+#jjbuckley {
+  background: url(../images/bg-body.jpg) no-repeat center top #000;
+}
+
+#bssc {
+  background: url(../images/backgrounds/bssc.jpg) no-repeat center top #000;
+}
+
+#jjbuckley .publisher_logo {
+  background: url(../images/logo.png) no-repeat;
+  width: 80px;
+  height: 67px;
+}
+
+#bssc .publisher_logo {
+  background: url(../images/logos/bssc.png) no-repeat;
+  width: 134px;
+  height: 41px;
+}
+
+#navigation {
+  padding: 25px;
+  color: yellow;
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+
+#navigation a {
+  display: block;
+  margin-bottom: 6px;
+}
+
+#navigation a:hover {
+  text-decoration: underline;
 }
 
 /*
