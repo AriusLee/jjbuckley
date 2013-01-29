@@ -336,6 +336,10 @@ h1 a:hover {
   background: url(../images/backgrounds/rockspot.jpg) no-repeat left top #000;
 }
 
+#northern_outdoors {
+  background: url(../images/backgrounds/northern-outdoors.jpg) no-repeat left top #000;
+}
+
 #jjbuckley .publisher_logo {
   background: url(../images/logo.png) no-repeat;
   width: 80px;
@@ -364,6 +368,12 @@ h1 a:hover {
   background: url(../images/logos/rockspot.jpg) no-repeat;
   width: 143px;
   height: 50px;
+}
+
+#northern_outdoors .publisher_logo {
+  background: url(../images/logos/northern-outdoors.png) no-repeat;
+  width: 191px;
+  height: 34px;
 }
 
 #navigation {
