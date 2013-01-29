@@ -336,7 +336,9 @@ h1 a:hover {
 /* Subject Changing */
 
 #jjbuckley,
-#winetasting {
+#winetasting,
+#winetasting_2,
+#winetasting_3 {
   background: url(../images/bg-body.jpg) no-repeat center top #000;
 }
 
@@ -400,7 +402,9 @@ h1 a:hover {
   height: 34px;
 }
 
-#winetasting .publisher_logo {
+#winetasting .publisher_logo,
+#winetasting_2 .publisher_logo,
+#winetasting_3 .publisher_logo {
   background: url(../images/logos/winetasting.png) no-repeat;
   width: 138px;
   height: 49px;
@@ -418,6 +422,10 @@ h1 a:hover {
 
 .lightbox_decor.livingsocial {
   background: url(../images/decors/livingsocial.png) no-repeat center bottom;
+}
+
+.lightbox_decor.blue_crab {
+  background: url(../images/decors/blue-crab.png) no-repeat center bottom;
 }
 
 
