@@ -17,6 +17,12 @@ $(document).ready(function() {
         $('.lightbox_decor').attr('class', 'lightbox_decor livingsocial');
         $('.advertiser_logo img').attr('src', 'assets/images/logos/livingsocial.png');
         break;
+      case "blue_crab":
+        $('.lightbox h1').html('$20 GIFT AT <a href=\"http://www.livingsocial.com/\">LIVINGSOCIAL.COM</a>');
+        $('.lightbox h2').html('Compliments of Blue Crab Trading Co.');
+        $('.lightbox_decor').attr('class', 'lightbox_decor livingsocial');
+        $('.advertiser_logo img').attr('src', 'assets/images/logos/livingsocial.png');
+        break;
       case "bssc":
         $('.lightbox h1').html('$15 GIFT AT <a href=\"http://www.fromyouflowers.com/\">FROMYOUFLOWERS.COM</a>');
         $('.lightbox h2').html('Compliments of Boston Ski & Sports Club');

@@ -360,6 +360,10 @@ h1 a:hover {
   background: url(../images/backgrounds/northern-outdoors.jpg) no-repeat left top #000;
 }
 
+#blue_crab {
+  background: url(../images/backgrounds/blue-crab.jpg) no-repeat left top #000;
+}
+
 #jjbuckley .publisher_logo {
   background: url(../images/logo.png) no-repeat;
   width: 80px;
@@ -400,6 +404,12 @@ h1 a:hover {
   background: url(../images/logos/winetasting.png) no-repeat;
   width: 138px;
   height: 49px;
+}
+
+#blue_crab .publisher_logo {
+  background: url(../images/logos/blue-crab.png) no-repeat;
+  width: 124px;
+  height: 65px;
 }
 
 .lightbox_decor.uflowers {
