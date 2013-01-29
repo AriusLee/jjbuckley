@@ -324,6 +324,10 @@ h1 a:hover {
   background: url(../images/backgrounds/bssc.jpg) no-repeat center top #000;
 }
 
+#citygolf {
+  background: url(../images/backgrounds/citygolf.jpg) no-repeat center top #000;
+}
+
 #jjbuckley .publisher_logo {
   background: url(../images/logo.png) no-repeat;
   width: 80px;
@@ -334,6 +338,12 @@ h1 a:hover {
   background: url(../images/logos/bssc.png) no-repeat;
   width: 134px;
   height: 41px;
+}
+
+#citygolf .publisher_logo {
+  background: url(../images/logos/citygolf.jpg) no-repeat;
+  width: 78px;
+  height: 60px;
 }
 
 #navigation {

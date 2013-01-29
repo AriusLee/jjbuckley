@@ -13,6 +13,10 @@ $(document).ready(function() {
         $('.lightbox h1').html('$15 GIFT AT <a href=\"http://www.fromyouflowers.com/\">FROMYOUFLOWERS.COM</a>');
         $('.lightbox h2').html('Compliments of Boston Ski & Sports Club');
         break;
+      case "citygolf":
+        $('.lightbox h1').html('$15 GIFT AT <a href=\"http://www.fromyouflowers.com/\">FROMYOUFLOWERS.COM</a>');
+        $('.lightbox h2').html('Compliments of CityGolf Boston');
+        break;
     }
     
   });
