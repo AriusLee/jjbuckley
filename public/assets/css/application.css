@@ -112,10 +112,6 @@ p a {
   height: 140px;
 }
 
-.lightbox_decor.uflowers {
-  background: url(../images/decors/uflowers.png) no-repeat center bottom;
-}
-
 .lightbox_body {
   width: 380px;
   height: 450px;
@@ -339,7 +335,8 @@ h1 a:hover {
 
 /* Subject Changing */
 
-#jjbuckley {
+#jjbuckley,
+#winetasting {
   background: url(../images/bg-body.jpg) no-repeat center top #000;
 }
 
@@ -398,6 +395,23 @@ h1 a:hover {
   width: 191px;
   height: 34px;
 }
+
+#winetasting .publisher_logo {
+  background: url(../images/logos/winetasting.png) no-repeat;
+  width: 138px;
+  height: 49px;
+}
+
+.lightbox_decor.uflowers {
+  background: url(../images/decors/uflowers.png) no-repeat center bottom;
+}
+
+.lightbox_decor.livingsocial {
+  background: url(../images/decors/livingsocial.png) no-repeat center bottom;
+}
+
+
+
 
 #navigation {
   padding: 25px;
