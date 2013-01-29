@@ -332,6 +332,10 @@ h1 a:hover {
   background: url(../images/backgrounds/harryhasit.jpg) no-repeat center top #000;
 }
 
+#rockspot {
+  background: url(../images/backgrounds/rockspot.jpg) no-repeat left top #000;
+}
+
 #jjbuckley .publisher_logo {
   background: url(../images/logo.png) no-repeat;
   width: 80px;
@@ -353,6 +357,12 @@ h1 a:hover {
 #harryhasit .publisher_logo {
   background: url(../images/logos/harryhasit.jpg) no-repeat;
   width: 212px;
+  height: 50px;
+}
+
+#rockspot .publisher_logo {
+  background: url(../images/logos/rockspot.jpg) no-repeat;
+  width: 143px;
   height: 50px;
 }
 
