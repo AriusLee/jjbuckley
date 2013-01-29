@@ -100,13 +100,36 @@ p a {
   width: 380px;
   height: 580px;
   margin: 0 auto;
-  padding-top: 40px;
   text-align: center;
-  background: url(../images/lightbox.png) no-repeat center bottom;
 }
 
 .lightbox_offset {
-  padding: 190px 20px 40px;
+  padding: 10px 20px 10px;
+}
+
+.lightbox_decor {
+  width: 380px;
+  height: 140px;
+}
+
+.lightbox_decor.uflowers {
+  background: url(../images/decors/uflowers.png) no-repeat center bottom;
+}
+
+.lightbox_body {
+  width: 380px;
+  height: 450px;
+  background: url(../images/lightbox-body.png) no-repeat center top;
+}
+
+.advertiser_logo {
+  padding: 0 0 10px;
+  max-height: 50px;
+}
+
+.advertiser_logo img {
+  max-height: 50px !important;
+  max-width: 320px !important;
 }
 
 .lightbox h1 {
